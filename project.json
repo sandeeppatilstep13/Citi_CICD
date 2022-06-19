@@ -1,5 +1,5 @@
 {
-  "name": "AnnounceFavouriteSinger",
+  "name": "Citi_CICD",
   "description": "A test process that tells me who my favourite singer is",
   "main": "Main.xaml",
   "dependencies": {
@@ -16,7 +16,9 @@
   "projectVersion": "1.0.73125918",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
@@ -25,7 +27,8 @@
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -41,7 +44,8 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "9307f8ef-a60b-4fc0-974f-a5aa7b19965e",
-        "fileName": "Test_FavouriteSinger.xaml"
+        "testCaseType": "TestCase",
+        "fileName": "Test_CITI_CICD.xaml"
       }
     ],
     "modernBehavior": false
